@@ -12,7 +12,7 @@ body{
 #logo{
     width: 100px;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 300px;
 }
 
@@ -20,7 +20,8 @@ header{
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    border: 1px solid aliceblue;
+    border-top: 1px solid aliceblue;
+    margin-top: 10px;
 }
 
 nav ul{
@@ -31,4 +32,68 @@ margin: 0;
 nav ul li{
     display: inline-block;
     margin: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background-color: rgba(0,0,0,0.3);
+    width: 700px;
+    border: 1px solid aliceblue;
+    margin: 10px auto 20px auto;
+    padding: 5px 5px;
+}
+
+h3{
+    color: antiquewhite;
+    text-align: center;
+}
+
+label{
+    color: antiquewhite;
+}
+
+input{
+    width: 250px;
+    height: 20px;
+}
+
+label , input{
+    margin-left: 230px;
+    margin-bottom: 10px;
+}
+
+[type="submit"]{
+    margin-top: 5px;
+border: 1px solid black;
+font-size: 16px;
+font-weight: 700;
+}
+
+footer{
+    position: absolute;
+    color: antiquewhite;
+    margin-left: 300px;
+    margin-top: 80px;
+    background-color: rgba(0,0,0,0.3);
 }
