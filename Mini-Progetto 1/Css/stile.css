@@ -1,0 +1,34 @@
+body{
+    background: url(../Img/viaggio.jpeg) no-repeat fixed center;
+    background-size: cover;
+    font-family: 'Raleway' , sans-serif;
+}
+
+#contenitore{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid aliceblue;
+}
+
+nav ul{
+list-style: none;
+margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
